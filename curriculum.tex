@@ -1,0 +1,215 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[green]{classic}
+
+% character encoding
+\usepackage[utf8]{inputenc}
+
+% Increase the title size
+%\setlength{\makecvtitlenamewidth}{5cm}
+\renewcommand*{\namefont}{\fontsize{30}{40}\mdseries\upshape}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\usepackage{footmisc}
+
+
+% hyphenation
+\hyphenation{Go-vern-ment Ayllón}
+
+% personal data
+\firstname{Alejandro}
+\familyname{Álvarez Ayllón}
+\title{Software Engineer}
+\address{27 Promenade de l'Europe}{1203 Geneva (Switzerland)}
+\phone{(+41) 076 237 6637}
+\email{a.alvarezayllon@gmail.com}
+\social[linkedin]{aalvarezayllon}
+
+\begin{document}
+\maketitle
+
+
+\section{Profile}
+I am a Software Engineer with more than ten years of experience in C++.
+I started in 2010 with the re-design and implementation in C++03 of one of the LHC Grid storage components,
+a design that is still in use today. During my career, I have switched from C++03 to C++11 and finally C++14.
+I enjoy the language more with each version, and I look forward to being able to use more recent standards in
+my everyday work, although I would be more than happy to be given a chance to work with others.
+I take great pride in my job for all the projects I have worked on, technically and otherwise.
+I consider it essential to keep in mind the final objectives --- software is the means to an end ---
+and always have a respectful attitude towards users, colleagues, and even code!
+It is, after all, someone else's work.
+
+
+\section{Work experience}
+\cventry{March 2018 -- Present}{Programmer Analyst}{Department of Astronomy, University of Geneva}{Geneva}{Switzerland}{
+As a member of the Swiss Science Data Center inside the Euclid Consortium, I participate in the
+development, maintenance, testing, and optimization of the software used to determine the distance
+of galaxies --- red-shift --- using photometric measurements.\\
+I also work on the astronomical image processing suite \emph{SourceXtractor++}, an utility for detecting and measuring sources --- stars, galaxies --- in astronomical images.\\
+The software is written mainly in C++14, with some wrapper code in Python. I am used to
+profiling the software to identify performance bottlenecks and excessive memory utilization.\\
+}
+
+\cventry{June 2015 -- February 2018}{FTS Project Lead}{CERN (European Organization for Nuclear Research)}{Geneva}{Switzerland}
+{
+  The File Transfer Service (FTS) is responsible for the transfer scheduling from
+  three LHC experiments, moving more than 15 PB of data per week. 
+  My responsibilities included:\\
+  \textbf{Project Manager}
+  \begin{itemize}
+    \item Organize meetings with stakeholders
+    \item Decide the direction and priorities
+    \item Coordinate and oversee the global infrastructure
+    \item Manage and improve the project life cycle, including the establishment
+      of a QA process and guidelines
+  \end{itemize}
+  \textbf{Lead Developer}
+  \begin{itemize}
+    \item Maintenance of the core service, and protocol libraries
+    \item Interact with other IT teams in order to
+      improve the service level, and provide better feedback to our users via monitoring
+  \end{itemize}
+}
+
+\cventry{October 2012 - May 2015}{Senior Software Engineer (Staff)}{CERN}{Geneva}{Switzerland}
+{
+  \begin{itemize}
+    \item Design and implementation of the FTS REST API
+    \item Development of an integrated Web Monitoring
+    \item MySQL query optimization
+    \item Consolidation of test tools and procedures
+  \end{itemize}
+}
+
+\cventry{December 2010 -- September 2012}{Software Engineer (Fellow)}{CERN}{Geneva}{Switzerland}
+{
+  \begin{itemize}
+    \item Re-factorization of `LCGDM/DPM', one of the storage components of the
+      LHC Computing Grid in C++, increasing the system flexibility and code re-usability
+    \item Development and maintenance of an Apache module for HTTP/WebDAV access
+  \end{itemize}
+}
+\cventry{August 2009 -- November 2010}{Technical student / Associated User}{CERN}{Geneva}{Switzerland}
+{
+  \begin{itemize}
+    \item Improve the Continuous Integration process for the Grid components
+    \item Integration, testing and certification of Data Management components
+  \end{itemize}
+}
+\cventry{February 2009 -- July 2009}{Teaching assistant}{Department of Computer Languages and Systems}{University of Cadiz}{Cadiz (Spain)}
+	{Data Structures I (C) and Object Oriented Programming (C++)}
+%\cventry{June 2008 -- August 2008}{CERN Openlab Summer Student}{CERN (European Organization for Nuclear Research)}{Geneva}{Switzerland}
+%	{Maintenance and performance improvements of the web application used
+%  by the CERN School of Computing to manage applicants.}
+%\cventry{October 2007 -- June 2008}{Stagier}{Free Software and Open Content Office of University of Cadiz}{Cadiz}{}{System administrator of the main server.}
+%\cventry{October 2006 -- February 2007}{Research assistant}{Free Software Office of University of Cadiz}{Cadiz}{}{Development
+%of an open standards report for the Andalusia Regional Government.}
+
+
+\section{Education}
+\cventry{2017 -- *}{PhD Student on Computer Engineering}{University of Cadiz}{}{}{}
+\cventry{2007 -- 2010}{Computer Engineering}{University of Cadiz}{equivalent to a Master's degree}{}{
+Master Thesis: Takuan: Dynamic Invariant Generation System for WS-BPEL Compositions
+}
+\cventry{2003 -- 2007}{Computer Technical Engineering}{University of Cadiz}{}{}{}
+
+\section{Languages}
+\cventry{Spanish}{Mother tongue}{}{}{}{}
+\cventry{English}{Advanced}{}{}{}{}
+\cventry{French}{Intermediate}{}{}{}{}
+
+\section{Training}
+\cventry{2017}{8th International SuperComputing Camp}{University of Cádiz}{}{}{}
+%\cventry{2017}{Machine Learning Foundations}{Coursera}{}{}{}
+\cventry{2015}{Personal Awareness \& Impact}{CERN Training}{}{}{}
+\cventry{2015}{Agile Project Management with Scrum}{CERN Training}{}{}{}
+%\cventry{2014}{Making presentations}{CERN Training}{}{}{}
+\cventry{2014}{Cryptography I}{Coursera}{}{}{}
+\cventry{2013}{Communicating Effectively}{CERN Training}{}{}{}
+\cventry{2013}{Hands On Modern C++: Making the most of the 11/14 standards}{CERN Training}{}{}{}
+\cventry{2013}{Thematic CERN School of Computing}{Split}{Croatia}{}{Data oriented design, Memory programming, Parallelism, Efficient computing, Acceleration}
+\cventry{2011}{CERN School of Computing}{Copenhagen}{Denmark}{}{}
+%\cventry{2011}{Python - Hands-on Introduction}{CERN Training}{}{}{}
+\cventry{2010}{Secure coding in C/C++}{CERN Training}{}{}{}
+
+
+\newpage
+\section{Project details}
+
+\cventry{2018-*}{Euclid Photo-Z Pipeline}{}{}{}{
+Euclid is a space telescope to improve our understanding of dark energy and dark matter.
+An integral part of achieving its objectives is determining billions of galaxies'
+red-shift (i.e., distance). The Photo-Z team designs and develops algorithms in C++14 and Python to this end. \\
+\textbf{Keywords:} C++14, Python, pybind11, Optimizations, Sanitizers (AddressSanitizer, ThreadSanitizer), Coverity
+}
+
+\cventry{2018-*}{SourceXtractor++}{}{}{}{
+\href{https://github.com/astrorama/SourceXtractorPlusPlus}{SourceXtractor++}
+is a program that extracts a catalog of sources from astronomical images.
+It is the successor to the original SExtractor package, completely rewritten in C++, with a
+modular code design with support for third-party plug-ins. It adds support to a flexible
+model fitting that can be configured in Python. To avoid the performance penalty 
+of calling Python from a tight C++ loop, the model is
+translated to an expression tree using a small custom library called
+\href{https://github.com/astrorama/Alexandria/tree/develop/Pyston}{Pyston}.\\
+\textbf{Keywords:} C++14, Python, Optimizations, Sanitizers (AddressSanitizer, ThreadSanitizer), Coverity,
+Fedora packaging
+}
+
+\cventry{2012-2018}{File Transfer Service}{}{}{}{
+The File Transfer Service (FTS) is responsible for the transfer scheduling the
+LHC experiments ATLAS, CMS and LHCb.
+During my period as a lead, this service moved 15PB of data (23M files) per week.\\
+\textbf{Keywords:} C++11, Python, MySQL, Network protocols, Golang, ZeroMQ, STOMP, Kibana, Coverity
+}
+
+\cventry{2012-2018}{GFAL2}{}{}{}{
+The Grid File Access Library is a C library providing an abstraction layer of
+the grid storage system complexity.\\
+It is used by FTS3, the experiment frameworks, and directly by end users.\\
+\textbf{Keywords:} C, C++11, Python, Network protocols, Coverity
+}
+
+\cventry{2010-2012}{Disk Pool Manager}{}{}{}{
+The Disk Pool Manager (DPM) is a storage system for grid sites.
+It offers a simple way to create a disk-based grid storage element composed by
+many disk servers.\\
+DPM supports the data and metadata access protocols that are relevant for
+file management and access in the Grid environment.\\
+It was the most deployed storage solution on the LHC Computing Grid with 141 instances.
+\textbf{Keywords:} C, C++03, MySQL, HTTP, WebDAV, Python, Network protocols
+}
+
+%\cventry{2010-2012}{SAKET}{\textit{Swiss Army Knife for ETICS Testing}}{}{}{
+%SAKET was a tool written in Python that automated the execution of builds,
+%deployment and tests in ETICS, a web application to build and test the software
+%components within the EMI project.\\
+%It was used by the \textit{Data Management Systems} section (\textit{Grid Technology} group)
+%for the nightly builds, and also for maintaining an archive of these builds and tests.\\
+%\textbf{Keywords:} Python, Continuous Integration, SVN.
+%}
+
+\cventry{2009-2010}{Takuan}{}{}{}{
+Takuan is an open-source WS-BPEL dynamic invariant generator which can infer
+invariants from WS-BPEL process definitions by generalizing from a set of
+samples of their data and control flows.\\
+As part of my Master Thesis, I improved the support of WS-BPEL characteristics
+(as properties); I developed a graphical user interface to facilitate running
+the tool; and added the capability to obtain instruction, branch and path coverage
+from the execution of a test-suite.\\
+\textbf{Original title:} \href{http://rodin.uca.es/xmlui/bitstream/handle/10498/8940/pfc.pdf}{Reingeniería y ampliación del generador dinámico
+de invariantes potenciales para composiciones de servicios web en WS-BPEL Takuan}\\
+\textbf{Keywords:} Java, XSLT, WS-BPEL, code coverage, Perl
+}
+
+%\include{papers}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+\end{document}
