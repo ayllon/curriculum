@@ -16,10 +16,6 @@
 
 \usepackage{footmisc}
 
-
-% hyphenation
-\hyphenation{Go-vern-ment Ayllón}
-
 % personal data
 \firstname{Alejandro}
 \familyname{Álvarez Ayllón}
@@ -46,7 +42,17 @@ It is, after all, someone else's work.
 
 
 \section{Work experience}
-\cventry{March 2018 -- Present}{Programmer Analyst}{Department of Astronomy, University of Geneva}{Geneva}{Switzerland}{
+\cventry{November 2022 -- Present}{Staff Engineer}{SonarSource}{Vernier}{Switzerland}{
+\begin{itemize}
+  \item Contributed to the development and enhancement of the CFamily analyzer, focusing on improving the analysis capabilities for C, C++, and Objective-C.
+  \item Played a key role in the implementation of the "Automatic Analysis" feature for SonarCloud, facilitating the process for users to automatically analyze their code without manual configuration.
+  \item Developed and implemented the orchestration required to analyze C++20 modules.
+  \item Provided user support, assisting customers with technical issues, troubleshooting problems, and ensuring a smooth user experience with SonarCloud and the CFamily analyzer.
+\end{itemize}
+}
+
+
+\cventry{March 2018 -- October 2022}{Programmer Analyst}{Department of Astronomy, University of Geneva}{Geneva}{Switzerland}{
 As a member of the Swiss Science Data Center inside the Euclid Consortium, I participate in the
 development, maintenance, testing, and optimization of the software used to determine the distance
 of galaxies --- red-shift --- using photometric measurements.\\
@@ -112,7 +118,9 @@ profiling the software to identify performance bottlenecks and excessive memory 
 
 
 \section{Education}
-\cventry{2017 -- *}{PhD Student on Computer Engineering}{University of Cadiz}{}{}{}
+\cventry{2017 -- 2023}{PhD on Computer Engineering}{University of Cadiz}{}{}{
+  Thesis: \href{https://rodin.uca.es/handle/10498/30338}{Navigating Diverse Datasets in the Face of Uncertainty}
+}
 \cventry{2007 -- 2010}{Computer Engineering}{University of Cadiz}{equivalent to a Master's degree}{}{
 Master Thesis: Takuan: Dynamic Invariant Generation System for WS-BPEL Compositions
 }
@@ -141,14 +149,14 @@ Master Thesis: Takuan: Dynamic Invariant Generation System for WS-BPEL Compositi
 \newpage
 \section{Project details}
 
-\cventry{2018-*}{Euclid Photo-Z Pipeline}{}{}{}{
+\cventry{2018-2022}{Euclid Photo-Z Pipeline}{}{}{}{
 Euclid is a space telescope to improve our understanding of dark energy and dark matter.
 An integral part of achieving its objectives is determining billions of galaxies'
 red-shift (i.e., distance). The Photo-Z team designs and develops algorithms in C++14 and Python to this end. \\
 \textbf{Keywords:} C++14, Python, pybind11, Optimizations, Sanitizers (AddressSanitizer, ThreadSanitizer), Coverity
 }
 
-\cventry{2018-*}{SourceXtractor++}{}{}{}{
+\cventry{2018-2022}{SourceXtractor++}{}{}{}{
 \href{https://github.com/astrorama/SourceXtractorPlusPlus}{SourceXtractor++}
 is a program that extracts a catalog of sources from astronomical images.
 It is the successor to the original SExtractor package, completely rewritten in C++, with a
